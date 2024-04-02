@@ -1,6 +1,9 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>main</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="m1"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Main</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,4 +13,5 @@
       <ion-title size="large">main</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-button [routerLink]="['/product-list']" >LISTA DE PRODUCTOS</ion-button>
 </ion-content>
